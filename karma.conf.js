@@ -25,13 +25,14 @@ module.exports = function (config) {
 
     frameworks: ["jasmine"],
 
-    browsers: ["Chrome", "Firefox"],
+    browsers: ["Chrome", "Firefox", "Opera"],
 
     reporters: ['progress', 'junit'],
 
     plugins: [
       "karma-chrome-launcher",
       "karma-firefox-launcher",
+      "karma-opera-launcher",
       "karma-jasmine",
       "karma-junit-reporter",
       "karma-phantomjs-launcher",
